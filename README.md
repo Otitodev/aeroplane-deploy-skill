@@ -1,5 +1,7 @@
 # aeroplane-deploy
 
+[![skills.sh](https://skills.sh/b/Otitodev/aeroplane-deploy-skill)](https://skills.sh/Otitodev/aeroplane-deploy-skill)
+
 An agent skill that teaches a coding agent how to deploy to a self-hosted [Aeroplane](https://github.com/xt42io/aeroplane) server (aeroplane.run), so you don't have to explain it from scratch in every session.
 
 It covers:
@@ -13,6 +15,12 @@ It covers:
 It also ships a small `curl`-based helper, `scripts/aeroplane-api.sh`, that sends authenticated API requests without ever printing your key.
 
 ## Install
+
+### All agents (skills.sh)
+
+```sh
+npx skills add Otitodev/aeroplane-deploy-skill
+```
 
 ### Claude Code
 
